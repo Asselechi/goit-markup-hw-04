@@ -238,7 +238,6 @@ body {
 .section-do {
   padding-top: 94px;
 }
-
 .list-text {
   display: flex;
 }
@@ -248,6 +247,16 @@ body {
 
 .list-part-title {
   flex-basis: calc((100% - 90px) / 4);
+}
+.pictures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 
 .part-title {
@@ -374,6 +383,10 @@ body {
   display: flex;
 }
 
+.list-company:not(:last-child) {
+  margin-right: 30px;
+}
+
 .square {
   display: flex;
   align-items: center;
@@ -388,6 +401,9 @@ body {
 .square:focus {
   border: 1px solid #2196f3;
 }
+.company-list-icon {
+  fill: #afb1b8;
+}
 
 .square:hover .company-list-icon,
 .square:focus .company-list-icon {
@@ -400,7 +416,9 @@ body {
   padding-bottom: 60px;
   background: #2f303a;
 }
-
+.footer-social {
+  display: flex;
+}
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -428,6 +446,16 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 /* ================ PORTFOLIO =======================*/
 .hero-portfolio {
