@@ -416,12 +416,13 @@ body {
   padding-bottom: 60px;
   background: #2f303a;
 }
-.footer-social {
+.footer-div {
   display: flex;
 }
 .footer-logo {
   display: block;
   margin-bottom: 20px;
+  margin-right: 156px;
 }
 
 .list-footer {
@@ -451,11 +452,18 @@ body {
 .social-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  margin-bottom: 20px;
   color: #ffffff;
+}
+
+.social-list-link-footer {
+  background: rgba(255, 255, 255, 0.1);
+}
+.social-list-icon-footer {
+  fill: #ffffff;
 }
 /* ================ PORTFOLIO =======================*/
 .hero-portfolio {
